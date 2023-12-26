@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(3, 3, 53);
+}
+
+
+
+.head{
+    width: 100%;
+    float: left;
+    background-color: dodgerblue;
+    padding: 8px;
+}
+
+.head-txt{
+    text-align: center;
+    font-size: 40px;
+    font-family: calibri;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*start resposive tab mode code*/
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    .head-txt{
+        font-size: 35px;
+    }
+}
+
+/*start resposive tab mode code*/
+
+
+/*start resposive mobile mode code*/
+@media only screen and (max-width:600px){
+
+    .head-txt{
+        font-size: 29px;
+    }
+}
+
+/*start resposive mobile mode code*/
+
+
+
+
+
+
+/*code type box*/
+
+#editor{
+    width: 90%;
+    float: left;
+    border: 2px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+#cdhead{
+    font-size: 30px;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+#coding{
+    width: 100%;
+    float: left;
+    height: 460px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: monospace;
+    padding: 10px;
+    border: none;
+    border-color: black;
+}
+
+/*start resposive tab mode code*/
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    #cdhead{
+        font-size: 25px;
+    }
+
+
+}
+
+/*start resposive tab mode code*/
+
+
+/*start resposive mobile mode code*/
+@media only screen and (max-width:600px){
+
+    #editor{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    #cdhead{
+        font-size: 22px;
+    }
+}
+
+/*start resposive mobile mode code*/
+
+
+/*code type box*/
+
+
+
+
+
+
+/*code result box*/
+#result{
+    width: 95%;
+    float: left;
+    border: 2px solid greenyellow;
+    margin-top: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: none;
+}
+
+#result-txt{
+    font-size: 30px;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+#final{
+    width: 100%;
+    float: left;
+    height: 460px;
+    background-color: rgb(221, 215, 215);
+    overflow: scroll;
+}
+
+#final::-webkit-scrollbar{
+    background-color: rgb(221, 215, 215);
+    width: 7px;
+}
+
+#final::-webkit-scrollbar-thumb{
+    background-color: red;
+    width: 7px;
+    border-radius: 10px;
+}
+
+
+/*start resposive tab mode code*/
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    #result-txt{
+        font-size: 26px;
+    }
+
+}
+     
+/*start resposive tab mode code*/
+
+
+/*start resposive mobile mode code*/
+@media only screen and (max-width:600px){
+
+    #result-txt{
+        font-size: 20px;
+    }
+}
+
+/*start resposive mobile mode code*/
+
+/*code result box*/
+
+
+
+
+
+
+/*run button code system*/
+#run,#back{
+    width: 15%;
+    height: 40px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+#run{
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: calibri;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: greenyellow;
+    box-shadow: 0px 3px 3px white;
+    transition: 0.7s;
+}
+
+#run:hover{
+    box-shadow: none;
+}
+
+#back{
+    display: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: calibri;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 0px 3px 3px white;
+    transition: 0.7s;
+}
+
+#back:hover{
+    box-shadow: none;
+}
+
+
+/*start resposive tab mode code*/
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    #run,#back{
+        width: 20%;
+        font-size: 17px;
+    }
+
+
+}
+     
+/*start resposive tab mode code*/
+
+
+/*start resposive mobile mode code*/
+@media only screen and (max-width:600px){
+
+    #run,#back{
+        width: 35%;
+        font-size: 15px;
+    }
+
+}
+
+/*start resposive mobile mode code*/
+
+
+/*run button code system*/
